@@ -1,0 +1,17 @@
+langchain
+openai
+langchain-openai
+pinecone-client
+python-dotenv
+tiktoken
+docx2txt
+pypdf
+requests
+numpy
+pandas
+aiohttp
+pyYAML
+langchain_experimental
+duckduckgo-search
+wikipedia
+langchainhub

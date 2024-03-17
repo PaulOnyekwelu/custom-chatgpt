@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "custom-chatgpt"
+version = "0.1.0"
+description = ""
+authors = ["Paul Onyekwelu <onyekwelupaulo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.12"
+openai = "^1.14.1"
+langchain-openai = "^0.0.8"
+pinecone-client = "^3.1.0"
+python-dotenv = "^1.0.1"
+tiktoken = "^0.6.0"
+docx2txt = "^0.8"
+pypdf = "^4.1.0"
+requests = "^2.31.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+aiohttp = "^3.9.3"
+pyyaml = "^6.0.1"
+langchain-experimental = "^0.0.54"
+duckduckgo-search = "^5.1.0"
+wikipedia = "^1.4.0"
+langchainhub = "^0.1.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
